@@ -128,9 +128,9 @@ export default function Navbar() {
                 </Link>
               </div>
 
-              <Link href={"£"} className="hidden lg:flex">
+              <div className="hidden lg:flex">
                 <ButtonContact />
-              </Link>
+              </div>
             </nav>
           </div>
         </div>
@@ -138,17 +138,24 @@ export default function Navbar() {
         {/* Overlay when mobile nav is open */}
         {isOpen && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-50 z-40"
-            onClick={() => setIsOpen(false)} // Close the nav when overlay is clicked
+            className="fixed inset-0 bg-black bg-opacity-50 z-50"
+            onClick={() => setIsOpen(false)}
           />
         )}
 
         {/* xs to lg - Make this fixed */}
         {isOpen && (
           <div
-            className="fixed top-16 left-0 w-full bg-gray-50 z-50 p-4"
+            className="fixed top-0 left-0 w-full bg-gray-50 z-50 p-4"
             key="modal"
           >
+            <div className=" flex justify-end p-5 mb-4">
+              {" "}
+              <X
+                onClick={() => setIsOpen(false)}
+                className={`${isOpen ? "text-gray-800" : "text-white"}`}
+              />
+            </div>
             <div className="flex flex-col text-lg space-y-4">
               <Link
                 href="/"
