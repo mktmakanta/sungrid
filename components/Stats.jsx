@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const Stats = () => {
   return (
-    <section className="py-5 bg-white sm:py-8 lg:py-14">
+    <section className="py-5 bg-orange-50 sm:py-8 lg:py-14">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <h4 className="text-xl font-medium text-gray-900">
