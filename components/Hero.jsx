@@ -41,11 +41,10 @@ const HeroSection = () => {
           solutions. Sungrid delivers innovative solar and electrical services
           to create a cleaner, greener future.
         </motion.p>
-        <div className="mt-6 font-medium ">
+        <div className="mt-6 font-medium hover:scale-110 transition-all duration-300 ">
           <motion.button
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
-            whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.8, delay: 2 }}
             className="px-4 py-2 md:px-8 md:py-3 text-[1rem] sm:text-base md:text-lg  text-white bg-blue-600 rounded-full hover:bg-blue-700"
           >

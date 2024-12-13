@@ -1,13 +1,14 @@
 "use client";
 
-import { Columns2, HousePlug, Rows2, UtilityPole } from "lucide-react";
+import { HousePlug, UtilityPole } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { FaSolarPanel } from "react-icons/fa";
 
 function Services() {
   return (
-    <section className="bg-blue-50 py-5">
+    <section className="bg-white py-5">
       <div className="  px-5 mt-8 md:mt-12 py-4 max-w-7xl mx-auto space-y-8">
         <div className="text-center  space-y-4">
           <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
@@ -57,7 +58,7 @@ function Services() {
               <div className="flex items-start space-x-4">
                 <div className="p-2 text-slate-200 rounded-md bg-blue-500">
                   {" "}
-                  <Columns2 className="size-10" />
+                  <FaSolarPanel className="size-10" />
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold">Solar Installation</h3>
@@ -110,7 +111,7 @@ function Services() {
 
             <Link
               href="/services"
-              className="text-blue-500 hover:scale-110 origin-left font-medium inline-block mt-4"
+              className="transition-all duration-150 text-blue-500 hover:scale-110 origin-left font-medium inline-block mt-4"
             >
               View all services →
             </Link>

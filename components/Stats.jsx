@@ -5,10 +5,10 @@ import CountUp from "react-countup";
 
 const Stats = () => {
   return (
-    <section className="py-5 bg-orange-50 sm:py-8 lg:py-14">
+    <section className="py-5 bg-gradient-to-b from-white to-slate-100 sm:py-8 lg:py-14">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
-          <h4 className="text-xl font-medium text-gray-900">
+          <h4 className="text-sm md:text-xl font-medium text-gray-900">
             Numbers tell the hard work we’ve done in the last 4 years
           </h4>
         </div>

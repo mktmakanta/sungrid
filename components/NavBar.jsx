@@ -1,9 +1,9 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight, X } from "lucide-react";
+import ButtonContact from "./ButtonContact";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +25,19 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // Prevent scrolling when mobile nav is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden"; // Disable scrolling
+    } else {
+      document.body.style.overflow = "auto"; // Enable scrolling
+    }
+
+    return () => {
+      document.body.style.overflow = "auto"; // Cleanup
+    };
+  }, [isOpen]);
 
   return (
     <>
@@ -52,14 +65,12 @@ export default function Navbar() {
                 type="button"
                 className={`inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:ring-2 hover:ring-gray-600 ${
                   isScrolled ? "text-gray-800" : "text-white"
-                }
-                  `}
+                }`}
               >
                 {isOpen ? (
                   <X className={`${isOpen ? "text-gray-800" : "text-white"}`} />
                 ) : (
                   <svg
-                    // className="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -117,30 +128,28 @@ export default function Navbar() {
                 </Link>
               </div>
 
-              <Link
-                href="/contact"
-                title=""
-                className="group contact-us items-center justify-center hidden px-6 py-3 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent gap-1  rounded-full lg:inline-flex hover:bg-blue-700 focus:bg-blue-700"
-                role="button"
-              >
-                <span className="">Contact Us</span>{" "}
-                <ArrowRight
-                  className="size-5 group-hover:translate-x-1
-                "
-                />
+              <Link href={"£"}>
+                <ButtonContact />
               </Link>
             </nav>
           </div>
         </div>
 
-        {/* xs to lg */}
+        {/* Overlay when mobile nav is open */}
         {isOpen && (
           <div
-            className=" lg:hidden bg-gray-50 z-50 relative top-16"
+            className="fixed inset-0 bg-black bg-opacity-50 z-40"
+            onClick={() => setIsOpen(false)} // Close the nav when overlay is clicked
+          />
+        )}
+
+        {/* xs to lg - Make this fixed */}
+        {isOpen && (
+          <div
+            className="fixed top-16 left-0 w-full bg-gray-50 z-50 p-4"
             key="modal"
-            exit={{ opacity: 0 }}
           >
-            <div className="flex flex-col px-6 py-4 text-lg space-y-4">
+            <div className="flex flex-col text-lg space-y-4">
               <Link
                 href="/"
                 onClick={() => setIsOpen(false)}

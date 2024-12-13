@@ -4,6 +4,7 @@ import HeroSection from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import Stats from "@/components/Stats";
 import FadeInSection from "@/components/FadeSections";
+import BackToHome from "@/components/BackToHome";
 
 const AboutUs = dynamic(() => import("@/components/AboutUs"));
 const Services = dynamic(() => import("@/components/Services"));
@@ -27,6 +28,7 @@ export default function Home() {
       <Contact />
       <TeamSection />
       <Testimonial />
+      <BackToHome />
     </main>
   );
 }
