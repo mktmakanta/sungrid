@@ -128,7 +128,7 @@ export default function Navbar() {
                 </Link>
               </div>
 
-              <Link href={"£"}>
+              <Link href={"£"} className="hidden lg:flex">
                 <ButtonContact />
               </Link>
             </nav>
