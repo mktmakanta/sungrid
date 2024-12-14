@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight, X } from "lucide-react";
 import ButtonContact from "./ButtonContact";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,23 +27,20 @@ export default function Navbar() {
     };
   }, []);
 
-  // Prevent scrolling when mobile nav is open
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = "hidden"; // Disable scrolling
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "auto"; // Enable scrolling
+      document.body.style.overflow = "auto";
     }
-
     return () => {
-      document.body.style.overflow = "auto"; // Cleanup
+      document.body.style.overflow = "auto";
     };
   }, [isOpen]);
 
   return (
     <>
       <header>
-        {/* lg+ */}
         <div
           className={`fixed top-0 left-0 w-full z-50 transition-all duration-300  ${
             isScrolled ? "text-black bg-white shadow-md " : "bg-transparent "
@@ -52,9 +50,11 @@ export default function Navbar() {
             <nav className="flex items-center justify-between h-16 lg:h-20">
               <div className="flex-shrink-0">
                 <Link href="/" className="text-5xl font-bold flex items-center">
-                  <img
+                  <Image
                     src="/icons/logo-text.svg"
                     alt="Logo"
+                    width={60}
+                    height={40}
                     className="w-28 md:w-40 mr-2"
                   />
                 </Link>
@@ -75,7 +75,7 @@ export default function Navbar() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className={`w-6 h-6 ${
+                    className={`w-8 h-8 ${
                       isScrolled ? "text-gray-800" : "text-white"
                     }`}
                   >
@@ -149,11 +149,13 @@ export default function Navbar() {
             className="fixed top-0 left-0 w-full bg-gray-50 z-50 p-4"
             key="modal"
           >
-            <div className=" flex justify-end p-5 mb-4">
+            <div className=" flex justify-end p-5 mb-4 ">
               {" "}
               <X
                 onClick={() => setIsOpen(false)}
-                className={`${isOpen ? "text-gray-800" : "text-white"}`}
+                className={`size-8 ring-2 ring-slate-300 rounded-lg ${
+                  isOpen ? "text-gray-800" : "text-white"
+                }`}
               />
             </div>
             <div className="flex flex-col text-lg space-y-4">

@@ -1,16 +1,26 @@
+"use client";
+
+import { Lightbulb } from "lucide-react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function AboutUs() {
   return (
     <section className="bg-slate-100 py-2 lg:py-5">
       <div className="py-4 px-5 mt-10 space-y-5  max-w-7xl mx-auto ">
-        <div className="text-center space-y-3">
-          <h2 className="text-xl font-bold text-orange-400">Get to know Us</h2>
+        <motion.div
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="text-center space-y-3"
+        >
+          <h2 className="text-3xl font-bold text-orange-400">Get to know Us</h2>
           <p className="max-w-3xl mx-auto text-[0.9rem] text-gray-600 md:text-xl">
             Our mission is to help you embrace clean energy while ensuring
             reliability, efficiency, and a brighter future for all.
           </p>
-        </div>
+        </motion.div>
         <div className="container mx-auto  flex flex-col md:flex-row items-center gap-8">
           {/* Left Content */}
           <div className="md:w-1/2 space-y-3">
@@ -53,15 +63,11 @@ export default function AboutUs() {
                 className="w-full h-full object-cover rounded-md shadow-md"
               />
             </div>
-            {/* Overlay Card */}
+
             <div className="absolute bottom-0 left-10 bg-orange-400 py-3 px-4 rounded-md shadow-lg transform translate-y-1/2">
               <div className="flex items-center gap-2">
                 <div className="  rounded-full">
-                  <img
-                    src="/icons/general.svg" // Replace with your icon path
-                    alt="Icon"
-                    className="w-8 h-8"
-                  />
+                  <Lightbulb className="w-12 h-12 text-white" />
                 </div>
                 <div className="text-white">
                   <h3 className="text-sm sm:text-xl  font-semibold ">

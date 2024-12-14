@@ -11,13 +11,25 @@ function Services() {
     <section className="bg-white py-5">
       <div className="px-5 mt-8 md:mt-12 py-4 max-w-7xl mx-auto space-y-8">
         <div className="text-center space-y-4">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-800">
+          <motion.h2
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="text-2xl md:text-4xl font-bold text-gray-800"
+          >
             Our Services
-          </h2>
-          <p className="text-gray-600">
+          </motion.h2>
+          <motion.p
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, delay: 0.2 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
+            className="text-gray-600"
+          >
             Discover how we deliver quality services tailored to your needs,
             ensuring top-notch installations and reliable solutions.
-          </p>
+          </motion.p>
         </div>
 
         <div className="flex flex-col md:flex-row items-start md:items-stretch space-y-6 md:space-y-0 md:space-x-8">

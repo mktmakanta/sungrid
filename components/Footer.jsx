@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
@@ -9,10 +10,12 @@ export default function Footer() {
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-10">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 xl:pr-8">
-            <img
+            <Image
               className="w-auto h-20  "
               src="/icons/logo-white-text.svg"
-              alt=""
+              alt="footer-logo"
+              width={70}
+              height={50}
             />
 
             <p className="text-base leading-relaxed text-gray-400 mt-7">

@@ -1,4 +1,7 @@
+"use client";
+
 import { HandCoins, ShieldCheck, UserCheck } from "lucide-react";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 
@@ -33,13 +36,27 @@ const ChooseUs = () => {
   return (
     <section className="bg-gradient-to-b from-white via-yellow-100/50 to-white  py-10">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h1 className="text-3xl font-bold mt-4">Why Choose Us?</h1>
-        <p className="text-gray-600 mt-4">
+        <motion.h1
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="text-3xl font-bold mt-4"
+        >
+          Why Choose Us?
+        </motion.h1>
+        <motion.p
+          initial={{ y: 30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+          viewport={{ once: true, amount: 0.3 }}
+          className="text-gray-600 mt-4"
+        >
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
           sunt explicabo. Nemo enim ipsam.
-        </p>
+        </motion.p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-12">
           {reasons.map((reason) => (
             <div

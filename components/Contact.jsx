@@ -171,7 +171,7 @@ const ContactPage = () => {
                     <button
                       type="submit"
                       disabled={loading}
-                      className={`inline-flex items-center justify-center w-full px-3 py-3 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-500 disabled:bg-gray-400 border border-transparent rounded-md focus:outline-none hover:bg-blue-600 focus:bg-blue-700 `}
+                      className={`inline-flex items-center justify-center w-full px-3 py-3 mt-2 text-base font-semibold text-white transition-all duration-200 bg-blue-600 disabled:bg-gray-400 border border-transparent rounded-md focus:outline-none hover:bg-blue-700 focus:bg-blue-700 `}
                     >
                       {loading ? (
                         <>
