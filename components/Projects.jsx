@@ -37,11 +37,12 @@ export default function Projects() {
   return (
     <section className="py-5 px-5 bg-white space-y-5">
       {/* Header */}
-      <div className="text-center space-y-2 ">
-        <h2 className="text-xl font-bold ">Selected Projects</h2>
-        <p className=" text-[0.8rem] text-gray-600">
+      <div className="text-center space-y-5 ">
+        <h2 className="text-3xl font-bold">Selected Projects</h2>
+        <p className=" text-md max-w-4xl mx-auto text-gray-600">
           Building on the trust earned from our clients, we transcend what is
-          and envision what could be.
+          and envision what could be. Lorem ipsum dolor sit amet consectetur
+          adipisicing.
         </p>
       </div>
 

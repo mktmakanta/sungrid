@@ -1,9 +1,6 @@
 import dynamic from "next/dynamic";
-
 import HeroSection from "@/components/Hero";
-import Marquee from "@/components/Marquee";
 import Stats from "@/components/Stats";
-import FadeInSection from "@/components/FadeSections";
 import BackToHome from "@/components/BackToHome";
 
 const AboutUs = dynamic(() => import("@/components/AboutUs"));

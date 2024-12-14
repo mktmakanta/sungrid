@@ -12,7 +12,7 @@ export default function GetQuote() {
           Give us a call on <span className="text-sm">08062482089</span> or hit
           the button below to request a call back!
         </p>
-        <button className="bg-orange-400 hover:bg-orange-500 text-white text-sm sm:text-lg py-2 px-4 md:py-3 md:px-6 transition-all duration-150 rounded-full shadow-md">
+        <button className="bg-orange-400 hover:bg-orange-600 text-white text-sm sm:text-lg py-2 px-4 md:py-3 md:px-6 transition-all duration-300 rounded-full shadow-lg">
           Call Us Today
         </button>
       </div>

@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <footer className="py-10 bg-gray-900 text-white sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-12 gap-y-12 gap-x-8 xl:gap-x-12">
-          <div className="col-span-2 md:col-span-4 xl:pr-8">
+        <div className="grid grid-cols-2 md:grid-cols-6 gap-10">
+          <div className="col-span-2 md:col-span-3 lg:col-span-2 xl:pr-8">
             <img
               className="w-auto h-20  "
               src="/icons/logo-white-text.svg"
@@ -20,7 +20,7 @@ export default function Footer() {
               amet sint. Velit officia consequat duis enim velit mollit.
             </p>
 
-            <a
+            <Link
               href="#"
               title=""
               className="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7"
@@ -40,138 +40,97 @@ export default function Footer() {
                 />
               </svg>
               Start Live Chat
-            </a>
+            </Link>
           </div>
 
-          <div className="lg:col-span-2">
-            <p className="text-base font-semibold text-white">Quick Links</p>
+          <div className="col-span-2 grid grid-cols-2">
+            <div className="">
+              <p className="text-base font-semibold text-white">Quick Links</p>
 
-            <div className="mt-6 space-y-5">
-              <Link
-                href="/about"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                About{" "}
-              </Link>
+              <div className="mt-6 space-y-5">
+                <Link
+                  href="/about"
+                  title=""
+                  className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
+                >
+                  {" "}
+                  About{" "}
+                </Link>
 
-              <Link
-                href="/service"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Services{" "}
-              </Link>
+                <Link
+                  href="/service"
+                  title=""
+                  className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
+                >
+                  {" "}
+                  Services{" "}
+                </Link>
 
-              <Link
-                href="/project"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Projects{" "}
-              </Link>
+                <Link
+                  href="/project"
+                  title=""
+                  className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
+                >
+                  {" "}
+                  Projects{" "}
+                </Link>
 
-              <Link
-                href="/contact"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Contact Us{" "}
-              </Link>
+                <Link
+                  href="/contact"
+                  title=""
+                  className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
+                >
+                  {" "}
+                  Contact Us{" "}
+                </Link>
+              </div>
+            </div>
+
+            <div className="">
+              <p className="text-base font-semibold text-white">Help</p>
+
+              <div className="mt-6 space-y-4">
+                <Link
+                  href="/"
+                  title=""
+                  className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
+                >
+                  {" "}
+                  Customer Support{" "}
+                </Link>
+
+                <Link
+                  href="/"
+                  title=""
+                  className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
+                >
+                  {" "}
+                  Terms & Conditions{" "}
+                </Link>
+              </div>
             </div>
           </div>
 
-          <div className="lg:col-span-2">
-            <p className="text-base font-semibold text-white">Help</p>
-
-            <div className="mt-6 space-y-4">
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Customer Support{" "}
-              </Link>
-
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Terms & Conditions{" "}
-              </Link>
-            </div>
-          </div>
-
-          <div className="lg:col-span-2">
+          <div className="col-span-2 md:col-span-6 lg:col-span-2">
             <p className="text-base font-semibold text-white">Address</p>
 
-            <div className="mt-6 space-y-5">
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Home Address{" "}
-              </Link>
-
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Office address{" "}
-              </Link>
-            </div>
-          </div>
-
-          <div className="lg:col-span-2">
-            <p className="text-base font-semibold text-white">Extra Links</p>
-
-            <div className="mt-6 space-y-5">
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Customer Support{" "}
-              </Link>
-
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Delivery Details{" "}
-              </Link>
-
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Terms & Conditions{" "}
-              </Link>
-
-              <Link
-                href="/"
-                title=""
-                className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
-              >
-                {" "}
-                Privacy Policy{" "}
-              </Link>
+            <div className="mt-6 gap-5 md:grid grid-cols-2 space-y-5 max-w-xl">
+              <div className="col-span-1 md:col-span-2 ">
+                <h1 className="">Home Address</h1>
+                <p className="text-slate-400 text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  ullam, eum inventore perferendis vel ipsa culpa expedita
+                  accusamus corrupti, itaque fugiat pariatur.
+                </p>
+              </div>
+              <div className="col-span-1 md:col-span-2 ">
+                <h1 className="">Head Office </h1>
+                <p className="text-slate-400 text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  ullam, eum inventore perferendis vel ipsa culpa expedita
+                  accusamus corrupti, itaque fugiat pariatur.
+                </p>
+              </div>
             </div>
           </div>
         </div>
