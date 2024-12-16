@@ -97,7 +97,7 @@ function Services() {
                     Electrical Installation
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    Comprehensive electrical services for homes and businesses.
+                    Comprehensive electrical services for homes and industries.
                   </p>
                 </div>
               </motion.div>

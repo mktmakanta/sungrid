@@ -15,7 +15,7 @@ export default function AboutUs() {
           viewport={{ once: true, amount: 0.3 }}
           className="text-center space-y-3"
         >
-          <h2 className="text-3xl font-bold text-orange-400">Get to know Us</h2>
+          <h2 className="text-2xl font-bold text-orange-400">Get to know Us</h2>
           <p className="max-w-3xl mx-auto text-[0.9rem] text-gray-600 md:text-xl">
             Our mission is to help you embrace clean energy while ensuring
             reliability, efficiency, and a brighter future for all.

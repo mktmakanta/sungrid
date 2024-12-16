@@ -71,8 +71,7 @@ const ContactPage = () => {
             Contact us
           </h2>
           <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-500">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis.
+            Have Questions? We're Just a Message Away!.
           </p>
         </div>
 

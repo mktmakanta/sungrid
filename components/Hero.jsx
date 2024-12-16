@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { MoveDown } from "lucide-react";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -50,7 +51,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="text-[0.8rem] md:text-lg max-w-3xl text-gray-300 mx-auto"
+            className="text-[0.8rem] md:text-lg max-w-3xl text-gray-100 mx-auto"
           >
             Power your home and business with reliable, sustainable energy
             solutions. Sungrid delivers innovative solar and electrical services
@@ -69,6 +70,9 @@ const HeroSection = () => {
               Read More
             </motion.span>
           </Link>
+          <div className=" hidden lg:block absolute bottom-6 left-1/2 ring-1 ring-slate-200 shadow-sm shadow-slate-200 px-1 py-3 rounded-full">
+            <MoveDown className="animate-bounce transition-all text-slate-200" />
+          </div>
         </div>
       </div>
     </>

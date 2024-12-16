@@ -40,9 +40,10 @@ export default function Projects() {
       <div className="text-center space-y-5 ">
         <h2 className="text-3xl font-bold">Selected Projects</h2>
         <p className=" text-md max-w-4xl mx-auto text-gray-600">
-          Building on the trust earned from our clients, we transcend what is
-          and envision what could be. Lorem ipsum dolor sit amet consectetur
-          adipisicing.
+          Discover how we bring innovative ideas to life through our expertly
+          executed projects, delivering value and impact for our clients. Here
+          are some of the amazing projects we’ve worked on, demonstrating our
+          ability to meet diverse challenges and exceed expectations.
         </p>
       </div>
 

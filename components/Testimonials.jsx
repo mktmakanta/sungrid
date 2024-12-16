@@ -8,7 +8,7 @@ const testimonial = [
   {
     id: 1,
     quote:
-      "Studying at WOC is fun, the curriculum is complete, the instructors are competent, and the assignments given are also relevant to the current scope of work.",
+      "I’m very happy with the service from Sungrid. The installation team was punctual and the system is performing well. There were a few minor hiccups with scheduling, but the team made sure to address all my concerns. It’s been a great investment for our home.",
     name: "Resky Fernanda",
     position: "Product Designer at Tokopedia",
     avatar: "/images/hero1.jpg",
@@ -16,7 +16,7 @@ const testimonial = [
   {
     id: 2,
     quote:
-      "The learning experience at WOC was amazing! The instructors went above and beyond to help students grasp key concepts and improve their skills.",
+      "The team at Sungrid was fantastic. They explained everything clearly, and the solar panels are working perfectly.",
     name: "Jane Doe",
     position: "Client",
     avatar: "/images/hero3.jpg",
@@ -24,7 +24,7 @@ const testimonial = [
   {
     id: 3,
     quote:
-      "Sungrid helped me advance in my career by offering relevant projects and hands-on training. I would highly recommend it to anyone looking to upskill.",
+      "Sungrid was an absolute game-changer for us. From the initial consultation to the installation, the team was transparent about everything. Our new solar panels are performing great, and we’ve already noticed a drop in our electricity bill. Highly recommend their services!",
     name: "John Smith",
     position: "Data Scientist at Microsoft",
     avatar: "/images/hero2.jpg",
@@ -32,7 +32,7 @@ const testimonial = [
   {
     id: 4,
     quote:
-      "The learning experience at WOC was amazing! The instructors went above and beyond to help students grasp key concepts and improve their skills.",
+      "We’ve been using Sungrid for our solar installation, and it was the best decision we made. The team was very professional, explained all the technical details, and were always available to answer questions. My energy  system has been running flawlessly.",
     name: "Jane Doe",
     position: "Client",
     avatar: "/images/hero3.jpg",
@@ -40,7 +40,7 @@ const testimonial = [
   {
     id: 5,
     quote:
-      "Sungrid helped me advance in my career by offering relevant projects and hands-on training. I would highly recommend it to anyone looking to upskill.",
+      "Good experience with Sungrid. The install was on time, but I had some questions about the monitoring app that took a bit to resolve.",
     name: "John Smith",
     position: "Data Scientist at Microsoft",
     avatar: "/images/hero2.jpg",
@@ -57,8 +57,7 @@ export default function Testimonial() {
             Testimonials
           </h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
-            culpa deserunt aliquam nostrum beatae possimus.
+            What Our Clients Are Saying About Their Solar Journey with Sungrid
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 lg:gap-10 sm:grid-cols-2 md:grid-cols-3">
@@ -74,12 +73,14 @@ export default function Testimonial() {
               <div className="flex flex-col justify-between flex-1 p-8">
                 <div className="flex-1">
                   <blockquote>
-                    <p className="text-lg text-gray-800">{testimonial.quote}</p>
+                    <p className="text-lg text-gray-500 h-min">
+                      {testimonial.quote}
+                    </p>
                   </blockquote>
                 </div>
 
                 <div className="mt-8">
-                  <div className="w-full h-0 mb-8 border-t-2 border-gray-200 border-dotted"></div>
+                  <div className="w-full h-min mb-8 border-t-2 border-gray-200 border-dotted"></div>
                   <div className="flex items-center">
                     <Image
                       className="flex-shrink-0 object-cover w-10 h-10 rounded-full"

@@ -13,7 +13,7 @@ const ChooseUs = () => {
       title: "Quality Service",
       link: "/services",
       description:
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.",
+        "We deliver top-notch solar and electrical solutions tailored to your needs, ensuring reliability, efficiency, and long-term satisfaction.",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ const ChooseUs = () => {
       title: "Expert Workers",
       link: "/about",
       description:
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati blanditiis.",
+        "Our team of certified professionals brings years of experience and expertise to every project, guaranteeing precision and excellence.",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const ChooseUs = () => {
       title: "Free Consultations",
       link: "/contact",
       description:
-        "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.",
+        "Get started with a free, no-obligation consultation to explore your energy options and find the perfect solution for your home or business.",
     },
   ];
 
@@ -50,12 +50,13 @@ const ChooseUs = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           viewport={{ once: true, amount: 0.3 }}
-          className="text-gray-600 mt-4"
+          className="text-gray-600 mt-4 max-w-4xl mx-auto"
         >
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam.
+          Sungrid is dedicated to providing innovative energy solutions that
+          empower homes and businesses. With a focus on sustainability and
+          customer satisfaction, we ensure every project is handled with
+          precision and care. Let us help you achieve a brighter, more
+          energy-efficient future.
         </motion.p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-12">
           {reasons.map((reason) => (
@@ -67,7 +68,7 @@ const ChooseUs = () => {
                 {reason.icon}
               </div>
               <h3 className="text-lg font-bold mt-4">{reason.title}</h3>
-              <p className="text-gray-600 mt-2">{reason.description}</p>
+              <p className="text-gray-600 mt-2 mb-5">{reason.description}</p>
               <Link
                 href={reason.link}
                 className="mt-4 text-orange-600 flex items-center hover:underline"

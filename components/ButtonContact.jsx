@@ -6,11 +6,11 @@ const ButtonContact = () => {
   return (
     <Link
       href="/contact"
-      className={`relative overflow-hidden rounded-full border-2 border-transparent flex bg-blue-600 px-6 py-3 text-white font-semibold  group`}
+      className={`relative overflow-hidden rounded-full border-2 border-transparent flex bg-blue-600 px-4 py-2 text-white font-medium  group`}
     >
       <span className="relative flex gap-1 items-center z-10 group-hover:text-blue-500 ">
         <span>Contact Us</span>{" "}
-        <ArrowRight className="size-5 group-hover:translate-x-1" />
+        <ArrowRight className="size-4 group-hover:translate-x-1" />
       </span>{" "}
       <span
         className="absolute inset-0 -translate-x-full bg-white transition-transform duration-300 ease-in-out group-hover:translate-x-0  "
