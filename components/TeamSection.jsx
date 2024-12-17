@@ -27,7 +27,7 @@ const team = [
   {
     name: "Sasha Kindred",
     role: "Customer Success Lead",
-    img: "/images/team/team5.jpg",
+    img: "/images/teams/team5.jpg",
   },
   {
     name: "Chris Evans",
