@@ -86,7 +86,7 @@ export default function TeamSection() {
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{ duration: 1, ease: "easeOut" }}
                   viewport={{ once: true, amount: 0.3 }}
-                  className="min-w-[200px] h-[350px] overflow-hidden "
+                  className="min-w-[200px] h-[380px] overflow-hidden "
                   key={index}
                 >
                   <div
