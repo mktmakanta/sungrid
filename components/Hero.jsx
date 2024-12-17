@@ -70,9 +70,6 @@ const HeroSection = () => {
               Read More
             </motion.span>
           </Link>
-          <div className=" hidden lg:block absolute bottom-6 left-1/2 ring-1 ring-slate-200 shadow-sm shadow-slate-200 px-1 py-3 rounded-full">
-            <MoveDown className="animate-bounce transition-all text-slate-200" />
-          </div>
         </div>
       </div>
     </>

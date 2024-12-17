@@ -5,24 +5,24 @@ import { FaInstagram, FaTwitterSquare, FaWhatsappSquare } from "react-icons/fa";
 
 const team = [
   {
-    name: "Emmy Rosum",
-    role: "Customer Success Agent",
-    img: "/images/team/team1.jpg",
+    name: "Omishola Joshua Oluwaseun",
+    role: "CEO Sungrid",
+    img: "/images/teams/omi.jpg",
   },
   {
-    name: "Sophie Chamberlain",
-    role: "Specialized Support",
-    img: "/images/team/team2.jpg",
+    name: "Ocheje Jeremiah",
+    role: "Technical Director 1",
+    img: "/images/teams/jerry.jpg",
   },
   {
-    name: "Lana Steiner",
-    role: "VP of Customer Success",
-    img: "/images/team/team3.jpg",
+    name: "Solomon Jibrin",
+    role: "Technical Director 2",
+    img: "/images/teams/jibrin.jpg",
   },
   {
-    name: "Orlando Diggs",
-    role: "Customer Success Lead",
-    img: "/images/team/team4.jpg",
+    name: "Omishola David Abayomi",
+    role: "Human Resource",
+    img: "/images/teams/david.jpg",
   },
   {
     name: "Sasha Kindred",
@@ -32,17 +32,17 @@ const team = [
   {
     name: "Chris Evans",
     role: "Customer Support Specialist",
-    img: "/images/team/team6.jpg",
+    img: "/images/teams/team6.jpg",
   },
   {
     name: "Taylor Swift",
     role: "Senior Customer Agent",
-    img: "/images/team/team7.jpg",
+    img: "/images/teams/team7.jpg",
   },
   {
-    name: "John Doe",
-    role: "Technical Support Lead",
-    img: "/images/team/team8.jpg",
+    name: "Ibrahim Makanta",
+    role: "Designer/Developer",
+    img: "/images/teams/makanta.jpg",
   },
 ];
 

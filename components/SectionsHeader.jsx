@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { MoveLeft } from "lucide-react";
 import Link from "next/link";
 import Breadcrumb from "./Breadcrumb";
 
@@ -20,8 +20,7 @@ const SectionsHeader = ({ text, image }) => {
         <div>
           <Link href="/">
             <Button className="bg-black/20 ring-2 ring-slate-800/40 hover:bg-blue-600 focus-visible:outline-2">
-              <ArrowLeft />
-              Home
+              <MoveLeft />
             </Button>
           </Link>
         </div>

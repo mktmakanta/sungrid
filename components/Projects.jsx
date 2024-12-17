@@ -3,33 +3,43 @@ import Image from "next/image";
 const projects = [
   {
     year: "2016—2018",
-    name: "JEWEL BUILDING",
-    image: "/images/hero2.jpg", // Add your image files in the `public` folder
+    name: "",
+    image: "/images/projects/project1.jpg", // Add your image files in the `public` folder
   },
   {
-    year: "2017—2020",
-    name: "GRAND HOUSE",
-    image: "/images/hero6.jpg",
+    year: "2020",
+    name: "DOMESTIC INSTALLATION",
+    image: "/images/projects/project2.jpg",
   },
   {
-    year: "2016—2018",
-    name: "QR OFFICE",
-    image: "/images/hero4.jpg",
-  },
-  {
-    year: "2017—2020",
+    year: "2022-2023",
     name: "PRIME HOTEL",
-    image: "/images/hero5.jpg",
+    image: "/images/projects/project3.jpg",
   },
   {
-    year: "2017—2020",
-    name: "BAO HOUSE",
-    image: "/images/hero7.jpg",
+    year: "2023",
+    name: "180watt PANEL",
+    image: "/images/projects/project4.jpg",
   },
   {
-    year: "2017—2020",
-    name: "VDL BUILDING",
-    image: "/images/sungrid3.png",
+    year: "2023-2024",
+    name: " ",
+    image: "/images/projects/project5.jpg",
+  },
+  {
+    year: "2023-2024",
+    name: "NET OFFICE",
+    image: "/images/projects/project6.jpg",
+  },
+  {
+    year: "2024",
+    name: "SL BUILDING",
+    image: "/images/projects/project7.jpg",
+  },
+  {
+    year: "2024",
+    name: "SL BUILDING",
+    image: "/images/projects/project8.jpg",
   },
 ];
 
@@ -54,10 +64,10 @@ export default function Projects() {
             <Image
               src={project.image}
               alt={project.name}
-              height={800}
               width={800}
+              height={800}
               quality={100}
-              className=" transform group-hover:scale-105 transition-transform duration-300 ease-in-out"
+              className=" transform group-hover:scale-105  transition-transform duration-300 ease-in-out"
             />
             <div className=" flex justify-between items-center px-2 mt-1">
               <p className="text-sm font-medium">{project.year}</p>

@@ -119,19 +119,17 @@ export default function Footer() {
 
             <div className="mt-6 gap-5 md:grid grid-cols-2 space-y-5 max-w-xl">
               <div className="col-span-1 md:col-span-2 ">
-                <h1 className="">Home Address</h1>
+                <h1 className="">Head Office </h1>
                 <p className="text-slate-400 text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                  ullam, eum inventore perferendis vel ipsa culpa expedita
-                  accusamus corrupti, itaque fugiat pariatur.
+                  Opposite Federal University of Technology Minna, Niger State,
+                  Nigeria.
                 </p>
               </div>
               <div className="col-span-1 md:col-span-2 ">
-                <h1 className="">Head Office </h1>
+                <h1 className="">Branch Office </h1>
                 <p className="text-slate-400 text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                  ullam, eum inventore perferendis vel ipsa culpa expedita
-                  accusamus corrupti, itaque fugiat pariatur.
+                  Beside Micheal Imodo, Olunlade Quarters, Ifelodun LGA. Illorin
+                  , Kwara State, Nigeria
                 </p>
               </div>
             </div>

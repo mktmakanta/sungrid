@@ -160,7 +160,7 @@ const ContactPage = () => {
                         value={formData.message}
                         onChange={handleChange}
                         placeholder="Enter your message"
-                        className="block w-full px-3 py-3 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:border-blue-600 caret-blue-600"
+                        className="block w-full px-3 py-3 text-black placeholder-gray-500  transition-all duration-200 bg-white border border-gray-200 rounded-md resize-y focus:outline-none focus:border-blue-600 caret-blue-600"
                         required
                       />
                     </div>
@@ -174,7 +174,7 @@ const ContactPage = () => {
                     >
                       {loading ? (
                         <>
-                          <LoaderCircle className="animate-spin" />
+                          <LoaderCircle className="animate-spin mr-2" />
                           loading...
                         </>
                       ) : (
