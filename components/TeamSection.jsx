@@ -30,19 +30,19 @@ const team = [
     img: "/images/teams/makanta.jpg",
   },
   {
-    name: "Mr Motoni AYO",
+    name: "Mr Mot",
     role: "Customer Success Lead",
-    img: "/images/teams/motoni.jpg",
+    img: "/images/teams/mot.jpg",
   },
   {
-    name: "Mr John Friday",
+    name: "Mr John",
     role: "Customer Support Specialist",
-    img: "/images/teams/john.jpg",
+    img: "/images/teams/jo.jpg",
   },
   {
-    name: "Samuel Alaofin",
+    name: "Samue",
     role: "Senior Customer Agent",
-    img: "/images/teams/samuel.jpg",
+    img: "/images/teams/.jpg",
   },
 ];
 
@@ -89,7 +89,7 @@ export default function TeamSection() {
                   className="min-w-[200px] h-[350px] overflow-hidden "
                   key={index}
                 >
-                  <motion.div
+                  <div
                     className="w-full h-full relative hover:scale-125  overflow-hidden shadow-lg"
                     style={{
                       backgroundImage: `url(${teamMember.img})`,
@@ -116,7 +116,7 @@ export default function TeamSection() {
                         </div>
                       </div>
                     </div>
-                  </motion.div>
+                  </div>
                 </motion.div>
               ))}
             </div>

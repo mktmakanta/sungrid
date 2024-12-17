@@ -90,13 +90,13 @@ export default function Testimonial() {
                 <div className="mt-8">
                   <div className="w-full h-min mb-8 border-t-2 border-gray-200 border-dotted"></div>
                   <div className="flex items-center">
-                    <img
+                    <Image
                       className="flex-shrink-0 object-cover w-10 h-10 rounded-full"
                       src={testimonial.avatar}
                       alt={testimonial.quote}
-                      // width={500}
-                      // height={500}
-                      // quality={100}
+                      width={500}
+                      height={500}
+                      quality={100}
                     />
                     <div className="ml-3">
                       <p className="text-base font-semibold text-gray-800 truncate">
