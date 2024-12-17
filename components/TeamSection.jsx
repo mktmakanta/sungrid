@@ -25,24 +25,24 @@ const team = [
     img: "/images/teams/david.jpg",
   },
   {
-    name: "Sasha Kindred",
-    role: "Customer Success Lead",
-    img: "/images/teams/team5.jpg",
-  },
-  {
-    name: "Chris Evans",
-    role: "Customer Support Specialist",
-    img: "/images/teams/team6.jpg",
-  },
-  {
-    name: "Taylor Swift",
-    role: "Senior Customer Agent",
-    img: "/images/teams/team7.jpg",
-  },
-  {
     name: "Ibrahim Makanta",
     role: "Designer/Developer",
     img: "/images/teams/makanta.jpg",
+  },
+  {
+    name: "Mr Motoni AYO",
+    role: "Customer Success Lead",
+    img: "/images/teams/motoni.jpg",
+  },
+  {
+    name: "Mr John Friday",
+    role: "Customer Support Specialist",
+    img: "/images/teams/john.jpg",
+  },
+  {
+    name: "Samuel Alaofin",
+    role: "Senior Customer Agent",
+    img: "/images/teams/samuel.jpg",
   },
 ];
 

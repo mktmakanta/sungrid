@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const projects = [
   {
-    year: "2016—2018",
-    name: "",
+    year: "2023-2024",
+    name: "VDL HOUSE",
     image: "/images/projects/project1.jpg", // Add your image files in the `public` folder
   },
   {

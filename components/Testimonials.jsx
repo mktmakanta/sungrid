@@ -9,41 +9,49 @@ const testimonial = [
     id: 1,
     quote:
       "I’m very happy with the service from Sungrid. The installation team was punctual and the system is performing well. There were a few minor hiccups with scheduling, but the team made sure to address all my concerns. It’s been a great investment for our home.",
-    name: "Resky Fernanda",
-    position: "Product Designer at Tokopedia",
-    avatar: "/images/hero1.jpg",
+    name: "Mr Motoni AYO",
+    position: "Bluesporting Hotel and Suit",
+    avatar: "/images/testimonies/motoni.jpg",
   },
   {
     id: 2,
     quote:
       "The team at Sungrid was fantastic. They explained everything clearly, and the solar panels are working perfectly.",
-    name: "Jane Doe",
+    name: "Mr John Friday",
     position: "Client",
-    avatar: "/images/hero3.jpg",
+    avatar: "/images/testimonies/john.jpg",
   },
   {
     id: 3,
     quote:
       "Sungrid was an absolute game-changer for us. From the initial consultation to the installation, the team was transparent about everything. Our new solar panels are performing great, and we’ve already noticed a drop in our electricity bill. Highly recommend their services!",
-    name: "John Smith",
-    position: "Data Scientist at Microsoft",
-    avatar: "/images/hero2.jpg",
+    name: "Mr Samuel Alaofin",
+    position: "Eto'o Communications",
+    avatar: "/images/testimonies/samuel.jpg",
   },
   {
     id: 4,
     quote:
       "We’ve been using Sungrid for our solar installation, and it was the best decision we made. The team was very professional, explained all the technical details, and were always available to answer questions. My energy  system has been running flawlessly.",
-    name: "Jane Doe",
+    name: "Miss Bukola",
     position: "Client",
-    avatar: "/images/hero3.jpg",
+    avatar: "/images/testimonies/bukola.jpg",
   },
   {
     id: 5,
     quote:
       "Good experience with Sungrid. The install was on time, but I had some questions about the monitoring app that took a bit to resolve.",
-    name: "John Smith",
-    position: "Data Scientist at Microsoft",
-    avatar: "/images/hero2.jpg",
+    name: "Miss Ibitoye",
+    position: "Client",
+    avatar: "/images/testimonies/ibitoye.jpg",
+  },
+  {
+    id: 6,
+    quote:
+      "Sungrid Solutions gave us a seamless, user-friendly website that showcases our services perfectly. The team’s attention to detail and expertise made all the difference. Highly recommended!",
+    name: "Mr Guzmok",
+    position: "Pascal medicine Store",
+    avatar: "/images/testimonies/gumzok.jpg",
   },
 ];
 
