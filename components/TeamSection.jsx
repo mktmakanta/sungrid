@@ -7,42 +7,42 @@ const team = [
   {
     name: "Omishola Joshua Oluwaseun",
     role: "CEO Sungrid",
-    img: "/images/teams/omi.jpg",
+    img: "/images/team/omi.jpg",
   },
   {
     name: "Ocheje Jeremiah",
     role: "Technical Director 1",
-    img: "/images/teams/jerry.jpg",
+    img: "/images/team/jerry.jpg",
   },
   {
     name: "Solomon Jibrin",
     role: "Technical Director 2",
-    img: "/images/teams/jibrin.jpg",
+    img: "/images/team/jibrin.jpg",
   },
   {
     name: "Omishola David Abayomi",
     role: "Human Resource",
-    img: "/images/teams/david.jpg",
+    img: "/images/team/david.jpg",
   },
   {
     name: "Ibrahim Makanta",
     role: "Designer/Developer",
-    img: "/images/teams/makanta.jpg",
+    img: "/images/team/makanta.jpg",
   },
   {
-    name: "Mr Mot",
-    role: "Customer Success Lead",
-    img: "/images/teams/mot.jpg",
+    name: "Soliu Ridwan OLADAPO",
+    role: "Sales Manager",
+    img: "/images/team/soliu.jpg",
   },
   {
-    name: "Mr John",
-    role: "Customer Support Specialist",
-    img: "/images/teams/jo.jpg",
+    name: "Abdullahi Abdullahi Olaide",
+    role: "Assistan Sales Manager",
+    img: "/images/team/abdullahi.jpg",
   },
   {
-    name: "Samue",
+    name: "mr wang ",
     role: "Senior Customer Agent",
-    img: "/images/teams/.jpg",
+    img: "/images/team/abdullahi.jpg",
   },
 ];
 
