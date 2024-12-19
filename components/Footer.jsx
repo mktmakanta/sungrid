@@ -19,13 +19,13 @@ export default function Footer() {
             />
 
             <p className="text-base leading-relaxed text-gray-400 mt-7">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              Innovating sustainable energy systems and empowering communities
+              with reliable, eco-friendly power solutions."
             </p>
 
             <Link
-              href="#"
-              title=""
+              href="https://wa.me/2348140828850"
+              title="whatsapp"
               className="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7"
             >
               <svg
@@ -115,9 +115,16 @@ export default function Footer() {
           </div>
 
           <div className="col-span-2 md:col-span-6 lg:col-span-2">
-            <p className="text-base font-semibold text-white">Address</p>
+            <p className="text-base font-semibold text-white">Contacts</p>
 
             <div className="mt-6 gap-5 md:grid grid-cols-2 space-y-5 max-w-xl">
+              <div className="col-span-1 md:col-span-2 ">
+                <h1 className="">Telephone: </h1>
+                <div className="text-slate-400 text-sm mt-2 space-y-1">
+                  <p>+234 814 082 8850</p>
+                  <p>+234 814 082 8850</p>
+                </div>
+              </div>
               <div className="col-span-1 md:col-span-2 ">
                 <h1 className="">Head Office </h1>
                 <p className="text-slate-400 text-sm">
@@ -153,7 +160,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="#"
+              href="https://wa.me/2348140828850"
               title=""
               className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-400 rounded-full w-7 h-7 focus:bg-blue-500 hover:text-white focus:text-white hover:bg-blue-500 hover:border-blue-500 focus:border-blue-500"
             >
@@ -161,7 +168,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/sungrid-solutions-71a2a2209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               title=""
               className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-400 rounded-full w-7 h-7 focus:bg-blue-500 hover:text-white focus:text-white hover:bg-blue-500 hover:border-blue-500 focus:border-blue-500"
             >

@@ -39,11 +39,6 @@ const team = [
     role: "Assistan Sales Manager",
     img: "/images/team/abdullahi.jpg",
   },
-  {
-    name: "mr wang ",
-    role: "Senior Customer Agent",
-    img: "/images/team/abdullahi.jpg",
-  },
 ];
 
 export default function TeamSection() {
