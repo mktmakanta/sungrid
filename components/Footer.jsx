@@ -61,7 +61,7 @@ export default function Footer() {
                 </Link>
 
                 <Link
-                  href="/service"
+                  href="/services"
                   title=""
                   className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
                 >
@@ -70,7 +70,7 @@ export default function Footer() {
                 </Link>
 
                 <Link
-                  href="/project"
+                  href="/projects"
                   title=""
                   className="flex text-sm text-gray-400 transition-all duration-200 hover:text-blue-500 focus:text-blue-500"
                 >
@@ -122,7 +122,7 @@ export default function Footer() {
                 <h1 className="">Telephone: </h1>
                 <div className="text-slate-400 text-sm mt-2 space-y-1">
                   <p>+234 814 082 8850</p>
-                  <p>+234 814 082 8850</p>
+                  <p>+234 802 417 3174</p>
                 </div>
               </div>
               <div className="col-span-1 md:col-span-2 ">
