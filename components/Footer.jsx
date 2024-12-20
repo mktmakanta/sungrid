@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
 
             <Link
-              href="https://wa.me/2348140828850"
+              href="https://wa.me/2348140818850"
               title="whatsapp"
               className="inline-flex items-center justify-center px-6 py-4 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700 mt-7"
             >
