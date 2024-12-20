@@ -52,10 +52,9 @@ export default function AboutUs() {
 
           {/* Right Content */}
           <div className="relative md:w-1/2 flex justify-center">
-            {/* Image */}
             <div className="w-full h-[300px] md:h-[400px] relative">
               <Image
-                src="/images/sungrid3.png" // Replace with your image path
+                src="/images/projects/project8.jpg"
                 width={1000}
                 height={1000}
                 quality={100}

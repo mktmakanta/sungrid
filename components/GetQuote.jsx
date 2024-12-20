@@ -16,7 +16,7 @@ export default function GetQuote() {
           button below to request a call back!
         </p>
 
-        <Link href={"tel:+2348140828850"}>
+        <Link href={"tel:+2348140818850"}>
           <button className="bg-orange-400 hover:bg-orange-600 text-white text-sm sm:text-lg py-2 px-4 md:py-3 md:px-6 transition-all duration-300 rounded-full shadow-lg">
             Call Us Today
           </button>

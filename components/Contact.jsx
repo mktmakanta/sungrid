@@ -206,9 +206,9 @@ const ContactPage = () => {
 
             <h3 className="text-lg font-semibold text-gray-900"> {status}</h3>
             <p className="text-slate-500 mt-2 text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-              optio consequatur aliquam ipsam veniam cum adipisci consectetur
-              vitae sunt, nobis har.
+              Thank you for reaching out to Sungrid Solutions! Your message has
+              been received, and our team will get back to you shortly. We
+              appreciate your interest in our services.
             </p>
             <button
               onClick={handleCloseModal}

@@ -117,11 +117,15 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-6 lg:col-span-2">
             <p className="text-base font-semibold text-white">Contacts</p>
 
-            <div className="mt-6 gap-5 md:grid grid-cols-2 space-y-5 max-w-xl">
+            <div className="mt-6 gap-5 md:grid grid-cols-2 space-y-4 md:space-y-2 max-w-xl">
               <div className="col-span-1 md:col-span-2 ">
-                <h1 className="">Telephone: </h1>
+                <h1 className="">Email </h1>
+                <p className="text-slate-400 text-sm">Omisholajosh@gmail.com</p>
+              </div>
+              <div className="col-span-1 md:col-span-2 ">
+                <h1 className="">Telephone </h1>
                 <div className="text-slate-400 text-sm mt-2 space-y-1">
-                  <p>+234 814 082 8850</p>
+                  <p>+234 814 081 8850</p>
                   <p>+234 802 417 3174</p>
                 </div>
               </div>
@@ -160,7 +164,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="https://wa.me/2348140828850"
+              href="https://wa.me/2348140818850"
               title=""
               className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-400 rounded-full w-7 h-7 focus:bg-blue-500 hover:text-white focus:text-white hover:bg-blue-500 hover:border-blue-500 focus:border-blue-500"
             >
