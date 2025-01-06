@@ -3,8 +3,6 @@ import Link from "next/link";
 import { FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
-  const thisYear = new Date().getFullYear();
-
   return (
     <footer className="py-10 bg-gray-900 text-white sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
@@ -151,7 +149,34 @@ export default function Footer() {
 
         <div className="sm:flex sm:items-center sm:justify-between">
           <p className="text-sm text-white">
-            © Copyright {thisYear}, All Rights Reserved by Sungridsolutions
+            © Copyright{" "}
+            {(() => {
+              const currentYear = new Date().getFullYear(); // Store the year in a variable
+              return currentYear === 2020
+                ? "2020"
+                : currentYear === 2021
+                ? "2021"
+                : currentYear === 2022
+                ? "2022"
+                : currentYear === 2023
+                ? "2023"
+                : currentYear === 2024
+                ? "2024"
+                : currentYear === 2025
+                ? "2025"
+                : currentYear === 2026
+                ? "2026"
+                : currentYear === 2027
+                ? "2027"
+                : currentYear === 2028
+                ? "2028"
+                : currentYear === 2029
+                ? "2029"
+                : currentYear === 2030
+                ? "2030"
+                : "Unknown year";
+            })()}
+            , All Rights Reserved by Sungridsolutions
           </p>
 
           <div className="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
