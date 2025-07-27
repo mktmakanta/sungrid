@@ -4,7 +4,7 @@ const projects = [
   {
     year: "2023-2024",
     name: "BSS HOTEL",
-    image: "/images/projects/project1.jpg", // Add your image files in the `public` folder
+    image: "/images/projects/project1.jpg", 
   },
   {
     year: "2020",

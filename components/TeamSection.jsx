@@ -36,7 +36,7 @@ const team = [
   },
   {
     name: "Abdullahi Abdullahi Olaide",
-    role: "Assistan Sales Manager",
+    role: "Assistant Sales Manager",
     img: "/images/team/abdullahi.jpg",
   },
 ];
