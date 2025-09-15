@@ -1,4 +1,4 @@
-import siteMetadata from "@/lib/metadata";
+import siteMetadata from "../../../lib/metadata";
 import Contact from "@/components/Contact";
 import GetQuote from "@/components/GetQuote";
 import Projects from "@/components/Projects";

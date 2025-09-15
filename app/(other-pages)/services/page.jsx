@@ -1,4 +1,4 @@
-import siteMetadata from "@/lib/metadata";
+import siteMetadata from "../../../lib/metadata";
 import Services from "@/components/Services";
 import SectionsHeader from "@/components/SectionsHeader";
 import Projects from "@/components/Projects";
