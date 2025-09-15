@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowRight, X } from "lucide-react";
+import {  X } from "lucide-react";
 import ButtonContact from "./ButtonContact";
 import Image from "next/image";
 
@@ -19,6 +19,7 @@ export default function Navbar() {
       } else {
         setIsScrolled(false);
       }
+    
     };
 
     window.addEventListener("scroll", handleScroll);

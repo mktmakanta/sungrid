@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { MoveLeft } from "lucide-react";
 import Link from "next/link";
 import Breadcrumb from "./Breadcrumb";
+import ButtonContact from "./ButtonContact";
 
 const SectionsHeader = ({ text, image }) => {
   return (
@@ -17,12 +18,13 @@ const SectionsHeader = ({ text, image }) => {
 
       {/* Content */}
       <div className="relative max-w-7xl mx-auto z-10 flex flex-col justify-start h-full p-8 text-white">
-        <div>
+        <div className="flex justify-between">
           <Link href="/">
             <Button className="bg-black/20 ring-2 ring-slate-800/40 hover:bg-blue-600 focus-visible:outline-2">
               <MoveLeft />
             </Button>
           </Link>
+          <ButtonContact />
         </div>
         <div className="">
           <h1 className="text-4xl lg:text-7xl font-bold absolute top-1/2">

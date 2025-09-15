@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { useRouter } from "next/navigation"; // Import useRouter
+import { useRouter } from "next/navigation"; 
 import { LoaderCircle } from "lucide-react";
 import SuccessIcon from "./SuccessIcon";
 
@@ -31,7 +31,7 @@ const ContactPage = () => {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault();  
     setLoading(true);
 
     emailjs.send(serviceId, templateId, formData, publicKey).then(

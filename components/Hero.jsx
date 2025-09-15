@@ -45,7 +45,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="md:text-7xl font-bold mt-20 text-3xl"
           >
-            Solar Panel Installer In Nigeria
+            Reliable Solar Solutions in Nigeria
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 100 }}

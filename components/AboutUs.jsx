@@ -70,9 +70,11 @@ export default function AboutUs() {
                 </div>
                 <div className="text-white">
                   <h3 className="text-sm sm:text-xl  font-semibold ">
-                    The Piece That Sold Me On
+                    Solar for Every Home
                   </h3>
-                  <p className="text-[0.9rem] ">This Polarizing Trend</p>
+                  <p className="text-[0.9rem] ">
+                    Clean energy your family can trust.
+                  </p>
                 </div>
               </div>
             </div>
