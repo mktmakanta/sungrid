@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Manrope } from "next/font/google";
-import metadata from "../lib/metadata";
+import siteMetadata from "./../lib/metadata";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -8,7 +8,7 @@ const manrope = Manrope({
   variable: "--font-manrope",
 });
 
-export { metadata };
+export const metadata = siteMetadata;
 
 export default function Layout({ children }) {
   return (
