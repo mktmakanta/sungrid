@@ -1,7 +1,7 @@
 import React from "react";
 import ContactPage from "@/components/Contact";
 import SectionsHeader from "@/components/SectionsHeader";
-import siteMetadata from "../../../lib/metadata";
+import siteMetadata from "../../metadata";
 
 export const metadata = siteMetadata.contact;
 

@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Manrope } from "next/font/google";
-import siteMetadata from "./../lib/metadata";
+import siteMetadata from "./metadata";
 
 const manrope = Manrope({
   subsets: ["latin"],
