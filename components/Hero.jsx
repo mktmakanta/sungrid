@@ -28,10 +28,14 @@ const HeroSection = () => {
               muted
               playsInline
               preload="auto"
-              poster="/fallback-image.jpg"
+              poster="/fallback-hero-image.jpg"
               className="absolute inset-0 w-full h-full object-cover"
             >
-              <source src="/hero-video.mp4" type="video/mp4" />
+              <source
+                src="/hero-video.mp4"
+                type="video/mp4"
+                title="Demo video of SunGrid Solutions website"
+              />
               Your browser does not support the video tag.
             </video>
           </div>

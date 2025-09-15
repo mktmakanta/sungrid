@@ -58,7 +58,7 @@ export default function AboutUs() {
                 width={1000}
                 height={1000}
                 quality={100}
-                alt="Solar Panel on Green Globe"
+                alt="sungrid team at work photo"
                 className="w-full h-full object-cover rounded-md shadow-md"
               />
             </div>

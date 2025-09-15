@@ -53,7 +53,7 @@ export default function Navbar() {
                 <Link href="/" className="text-5xl font-bold flex items-center">
                   <Image
                     src="/icons/logo-text.svg"
-                    alt="Logo"
+                    alt="sungrid logo"
                     width={60}
                     height={40}
                     className="w-28 md:w-40 mr-2"

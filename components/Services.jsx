@@ -42,7 +42,7 @@ function Services() {
           >
             <Image
               src="/images/omi-back.jpg"
-              alt="Main Service"
+              alt="sungrid custume "
               width={800}
               height={800}
               quality={100}

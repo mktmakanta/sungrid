@@ -4,7 +4,7 @@ const projects = [
   {
     year: "2023-2024",
     name: "BSS HOTEL",
-    image: "/images/projects/project1.jpg", 
+    image: "/images/projects/project1.jpg",
   },
   {
     year: "2020",
@@ -63,7 +63,7 @@ export default function Projects() {
           <div key={index} className="group">
             <Image
               src={project.image}
-              alt={project.name}
+              alt={`sungrid ${project.name} project`}
               width={800}
               height={800}
               quality={100}

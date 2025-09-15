@@ -11,7 +11,7 @@ export default function Footer() {
             <Image
               className="w-auto h-20  "
               src="/icons/logo-white-text.svg"
-              alt="footer-logo"
+              alt="sungrid-footer-logo"
               width={70}
               height={50}
             />
