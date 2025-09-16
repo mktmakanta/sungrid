@@ -63,7 +63,7 @@ function Services() {
               and top-tier quality for all your projects.
             </motion.p>
 
-            <div className="space-y-4">
+            <div className="space-y-4 ">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -77,7 +77,8 @@ function Services() {
                 <div>
                   <h3 className="text-lg font-semibold">Solar Installation</h3>
                   <p className="text-gray-600 text-sm">
-                    Expert solar installations for energy-efficient solutions.
+                    Expert solar solutions for homes and businesses, boosting
+                    energy efficiency and cutting costs.
                   </p>
                 </div>
               </motion.div>
@@ -97,7 +98,8 @@ function Services() {
                     Electrical Installation
                   </h3>
                   <p className="text-gray-600 text-sm">
-                    Comprehensive electrical services for homes and industries.
+                    Comprehensive electrical services with safe, reliable, and
+                    long-lasting results.
                   </p>
                 </div>
               </motion.div>
@@ -115,7 +117,8 @@ function Services() {
                 <div>
                   <h3 className="text-lg font-semibold">General Works</h3>
                   <p className="text-gray-600 text-sm">
-                    Reliable maintenance and repairs for all your needs.
+                    Maintenance and repairs you can trust, keeping your systems
+                    running smoothly.
                   </p>
                 </div>
               </motion.div>

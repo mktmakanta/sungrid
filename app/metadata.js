@@ -55,7 +55,7 @@ const siteMetadata = {
     openGraph: {
       title: "About Us | SunGrid Solutions",
       description:
-        "Learn more about SunGrid Solutions, Nigeria’s trusted provider of solar and electrical installation services. Discover our mission to power homes, businesses, and communities with clean, sustainable energy.",
+        "Learn more about SunGrid Solutions, Nigeria’s trusted provider of solar and electrical installation services. Discover our mission to power homes, businesses, and communities with clean, sustainable energy. Available in Minna, lokoja, Abuja and accross 36 states in Nigeria",
       url: `${siteUrl}/about`,
       images: [
         {
@@ -115,7 +115,7 @@ const siteMetadata = {
     openGraph: {
       title: "Solar & Electrical Services | SunGrid Solutions",
       description:
-        "Discover SunGrid Solutions' range of solar and electrical installation services in Nigeria. Reliable, affordable, and sustainable energy solutions for homes and businesses.",
+        "Discover SunGrid Solutions' range of solar and electrical installation services in Nigeria. Reliable, affordable, and sustainable energy solutions for homes and businesses. Solar Installation Services in Minna, lokoja and Abuja.",
       url: `${siteUrl}/services`,
       images: [
         {

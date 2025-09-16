@@ -12,7 +12,7 @@ const HeroSection = () => {
       <Head>
         <link
           rel="preload"
-          href="/hero-video.mp4"
+          href="https://res.cloudinary.com/dadth8mmh/video/upload/f_auto,q_auto/v1758003962/hero-video_jm8cys.mp4"
           as="video"
           type="video/mp4"
         />
@@ -21,7 +21,6 @@ const HeroSection = () => {
       <div className="relative w-full h-[50vh] lg:h-[100vh] overflow-hidden">
         <div className="absolute inset-0">
           <div className="absolute inset-0">
-            {/* Video background with a poster for fallback */}
             <video
               autoPlay
               loop
@@ -31,8 +30,10 @@ const HeroSection = () => {
               poster="/fallback-hero-image.jpg"
               className="absolute inset-0 w-full h-full object-cover"
             >
+              {/* Cloudinary video */}
               <source
-                src="/hero-video.mp4"
+                src="https://res.cloudinary.com/dadth8mmh/video/upload/f_auto,q_auto/v1758003962/hero-video_jm8cys.mp4
+"
                 type="video/mp4"
                 title="Demo video of SunGrid Solutions website"
               />
