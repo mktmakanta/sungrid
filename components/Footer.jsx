@@ -133,7 +133,7 @@ export default function Footer() {
               <div className="col-span-1 md:col-span-2 ">
                 <h1 className="">Head Office </h1>
                 <p className="text-slate-400 text-sm">
-                  Opposite Federal University of Technology Minna, Niger State,
+                Beside Ango Guest Inn, Mypa Junction, Bosso LGA, Minna, Niger State,
                   Nigeria.
                 </p>
               </div>
