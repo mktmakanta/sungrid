@@ -28,17 +28,7 @@ const team = [
     name: "Ibrahim Makanta",
     role: "Designer/Developer",
     img: "/images/team/makanta.jpg",
-  },
-  {
-    name: "Soliu Ridwan OLADAPO",
-    role: "Sales Manager",
-    img: "/images/team/soliu.jpg",
-  },
-  {
-    name: "Abdullahi Abdullahi Olaide",
-    role: "Assistant Sales Manager",
-    img: "/images/team/abdullahi.jpg",
-  },
+  }
 ];
 
 export default function TeamSection() {
